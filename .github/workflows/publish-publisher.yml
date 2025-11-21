@@ -29,7 +29,10 @@ jobs:
       - name: Build
         run: cd publisher && bun run build
 
-      - name: Publish to NPM
-        run: cd publisher && npm publish --provenance
+      - name: Setup NPM Auth
+        run: cd publisher && npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish to NPM
+        run: cd publisher && npm publish --provenance
