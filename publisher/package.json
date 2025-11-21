@@ -2,6 +2,7 @@
 	"name": "@hixbe/font-publisher",
 	"version": "0.0.1",
 	"description": "Hixbe Font Publisher CLI Tool",
+	"type": "module",
 	"bin": {
 		"hixbe-publish": "dist/cli.mjs"
 	},
