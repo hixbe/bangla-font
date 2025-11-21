@@ -13,11 +13,10 @@ jobs:
           bun-version: latest
 
       - name: Install
-        run: bun install --frozen-lockfile
+        run: cd publisher && bun install --frozen-lockfile
 
       - name: Run Tests
-        run: bun run test
-
+        run: cd publisher && bun run test
 
 
 
