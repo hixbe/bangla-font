@@ -1,6 +1,6 @@
 {
   "name": "@hixbe/material-icons-two-tone",
-  "version": "5.2.6",
+  "version": "5.2.7",
   "description": "Self-host the Material Icons Two Tone font in a neatly bundled NPM package.",
   "main": "index.css",
   "publishConfig": {"access": "public"},
@@ -43,5 +43,5 @@
     "url": "git+https://github.com/hixbe/bangla-font.git",
     "directory": "fonts/google/material-icons-two-tone"
   },
-  "publishHash": "d014ae93fabb85d4"
+  "publishHash": "ea7633991879c1da"
 }
