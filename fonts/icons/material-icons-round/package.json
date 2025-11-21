@@ -40,7 +40,7 @@
   "funding": "https://github.com/sponsors/ayuhito",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hixbe/font-files.git",
+    "url": "git+https://github.com/hixbe/bangla-font.git",
     "directory": "fonts/google/material-icons-round"
   },
   "publishHash": "8a9291fa543a79e6"

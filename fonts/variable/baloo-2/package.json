@@ -40,7 +40,7 @@
   "funding": "https://github.com/sponsors/ayuhito",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hixbe/font-files.git",
+    "url": "git+https://github.com/hixbe/bangla-font.git",
     "directory": "fonts/variable/baloo-2"
   },
   "publishHash": "c3d5573744ba517d"

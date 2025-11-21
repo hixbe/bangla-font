@@ -1,6 +1,6 @@
 # Hixbe Material Symbols Outlined
 
-[![npm (scoped)](https://img.shields.io/npm/v/@hixbe/material-symbols-outlined?color=brightgreen)](https://www.npmjs.com/package/@hixbe/material-symbols-outlined) [![Generic badge](https://img.shields.io/badge/hixbe-passing-brightgreen)](https://github.com/hixbe/font-files) [![Monthly downloads](https://badgen.net/npm/dm/@hixbe/material-symbols-outlined)](https://github.com/hixbe/font-files) [![Total downloads](https://badgen.net/npm/dt/@hixbe/material-symbols-outlined)](https://github.com/hixbe/font-files) [![GitHub stars](https://img.shields.io/github/stars/hixbe/hixbe.svg?style=social&label=Star)](https://github.com/hixbe/font-files/stargazers)
+[![npm (scoped)](https://img.shields.io/npm/v/@hixbe/material-symbols-outlined?color=brightgreen)](https://www.npmjs.com/package/@hixbe/material-symbols-outlined) [![Generic badge](https://img.shields.io/badge/hixbe-passing-brightgreen)](https://github.com/hixbe/bangla-font) [![Monthly downloads](https://badgen.net/npm/dm/@hixbe/material-symbols-outlined)](https://github.com/hixbe/bangla-font) [![Total downloads](https://badgen.net/npm/dt/@hixbe/material-symbols-outlined)](https://github.com/hixbe/bangla-font) [![GitHub stars](https://img.shields.io/github/stars/hixbe/hixbe.svg?style=social&label=Star)](https://github.com/hixbe/bangla-font/stargazers)
 
 The CSS and web font files to easily self-host the “Material Symbols Outlined” font. Please visit the main [Hixbe website](https://hixbe.com/fonts/material-symbols-outlined) to view more details on this package.
 
@@ -44,5 +44,5 @@ Google Inc.
 ## Other Notes
 Font version (provided by source): `v296`.
 
-If you have any suggestions or ideas to improve the performance of font loading or expand the existing library, feel free to star and contribute to this repository. You can share your suggestions or ideas by creating an [issue](https://github.com/hixbe/font-files/issues).
+If you have any suggestions or ideas to improve the performance of font loading or expand the existing library, feel free to star and contribute to this repository. You can share your suggestions or ideas by creating an [issue](https://github.com/hixbe/bangla-font/issues).
 

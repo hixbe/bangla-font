@@ -40,7 +40,7 @@
   "funding": "https://github.com/sponsors/ayuhito",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hixbe/font-files.git",
+    "url": "git+https://github.com/hixbe/bangla-font.git",
     "directory": "fonts/other/bagnard"
   },
   "publishHash": "b4a83da51be33e89"

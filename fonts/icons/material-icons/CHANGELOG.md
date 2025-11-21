@@ -1,3 +1,3 @@
 # Changelog
-See the [Hixbe CHANGELOG.md](https://github.com/hixbe/font-files/blob/main/CHANGELOG.md).
+See the [Hixbe CHANGELOG.md](https://github.com/hixbe/bangla-font/blob/main/CHANGELOG.md).
 

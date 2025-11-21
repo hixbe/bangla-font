@@ -55,10 +55,10 @@
 	"publishConfig": {
 		"access": "public"
 	},
-	"homepage": "https://github.com/hixbe/font-files/tree/main/publish",
+	"homepage": "https://github.com/hixbe/bangla-font/tree/main/publish",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/hixbe/font-files.git",
+		"url": "git+https://github.com/hixbe/bangla-font.git",
 		"directory": "publisher"
 	}
 }

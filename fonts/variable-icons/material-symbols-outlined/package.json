@@ -40,7 +40,7 @@
   "funding": "https://github.com/sponsors/ayuhito",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hixbe/font-files.git",
+    "url": "git+https://github.com/hixbe/bangla-font.git",
     "directory": "fonts/variable/material-symbols-outlined"
   },
   "publishHash": "45b54aa3e170a4b8"
