@@ -1,46 +1,65 @@
 {
-  "name": "@hixbe/kalpurush",
-  "version": "5.2.4",
-  "description": "Self-host the Kalpurush font in a neatly bundled NPM package.",
-  "main": "index.css",
-  "publishConfig": {"access": "public"},
-  "keywords": [
-    "hixbe",
-    "font",
-    "font family",
-    "google fonts",
-    "kalpurush",
-    "Kalpurush",
-    "css",
-    "sass",
-    "front-end",
-    "web",
-    "typeface"
-  ],
-  "exports": {
-    ".": {"sass": "./index.css", "default": "./index.css"},
-    "./OFL.txt": "./OFL.txt",
-    "./*": {"sass": "./*.css", "default": "./*.css"},
-    "./*.css": {"sass": "./*.css", "default": "./*.css"},
-    "./files/*": {"sass": "./files/*", "default": "./files/*"},
-    "./files/*.woff": {"sass": "./files/*.woff", "default": "./files/*.woff"},
-    "./files/*.woff2": {
-      "sass": "./files/*.woff2",
-      "default": "./files/*.woff2"
-    },
-    "./package.json": "./package.json",
-    "./metadata.json": "./metadata.json",
-    "./unicode.json": "./unicode.json",
-    "./scss": {"sass": "./scss/metadata.scss"}
-  },
-  "author": "Anirban Mitra",
-  "license": "OFL-1.1",
-  "homepage": "https://hixbe.com/fonts/kalpurush",
-  "funding": "https://github.com/sponsors/hixbe",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hixbe/bangla-font.git",
-    "directory": "fonts/other/kalpurush"
-  },
-  "publishHash": "placeholder"
+	"name": "@hixbe/kalpurush",
+	"version": "5.2.4",
+	"description": "Self-host the Kalpurush font in a neatly bundled NPM package.",
+	"main": "index.css",
+	"publishConfig": {
+		"access": "public"
+	},
+	"keywords": [
+		"hixbe",
+		"font",
+		"font family",
+		"google fonts",
+		"kalpurush",
+		"Kalpurush",
+		"css",
+		"sass",
+		"front-end",
+		"web",
+		"typeface"
+	],
+	"exports": {
+		".": {
+			"sass": "./index.css",
+			"default": "./index.css"
+		},
+		"./OFL.txt": "./OFL.txt",
+		"./*": {
+			"sass": "./*.css",
+			"default": "./*.css"
+		},
+		"./*.css": {
+			"sass": "./*.css",
+			"default": "./*.css"
+		},
+		"./files/*": {
+			"sass": "./files/*",
+			"default": "./files/*"
+		},
+		"./files/*.woff": {
+			"sass": "./files/*.woff",
+			"default": "./files/*.woff"
+		},
+		"./files/*.woff2": {
+			"sass": "./files/*.woff2",
+			"default": "./files/*.woff2"
+		},
+		"./package.json": "./package.json",
+		"./metadata.json": "./metadata.json",
+		"./unicode.json": "./unicode.json",
+		"./scss": {
+			"sass": "./scss/metadata.scss"
+		}
+	},
+	"author": "Anirban Mitra",
+	"license": "OFL-1.1",
+	"homepage": "https://hixbe.com/fonts/kalpurush",
+	"funding": "https://github.com/sponsors/hixbe",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hixbe/bangla-font.git",
+		"directory": "fonts/other/kalpurush"
+	},
+	"publishHash": "a7ffd30dcb441204"
 }

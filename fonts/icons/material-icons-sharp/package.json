@@ -1,6 +1,6 @@
 {
   "name": "@hixbe/material-icons-sharp",
-  "version": "5.2.6",
+  "version": "5.2.7",
   "description": "Self-host the Material Icons Sharp font in a neatly bundled NPM package.",
   "main": "index.css",
   "publishConfig": {"access": "public"},
@@ -43,5 +43,5 @@
     "url": "git+https://github.com/hixbe/bangla-font.git",
     "directory": "fonts/google/material-icons-sharp"
   },
-  "publishHash": "c073ba5e37f08927"
+  "publishHash": "608e1c1c7deceaad"
 }
