@@ -1,6 +1,6 @@
 {
   "name": "@hixbe/material-symbols-sharp-variable",
-  "version": "5.2.29",
+  "version": "5.2.30",
   "description": "Self-host the Material Symbols Sharp font in a neatly bundled NPM package.",
   "main": "index.css",
   "publishConfig": {"access": "public"},
@@ -43,5 +43,5 @@
     "url": "git+https://github.com/hixbe/bangla-font.git",
     "directory": "fonts/variable/material-symbols-sharp"
   },
-  "publishHash": "4de46f789486b629"
+  "publishHash": "b00d681c917a41e8"
 }
