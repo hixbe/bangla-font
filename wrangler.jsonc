@@ -1,0 +1,11 @@
+{
+	"name": "hixbe-font-cdn",
+	"compatibility_date": "2025-11-22",
+	"main": "worker.js",
+	"r2_buckets": [
+		{
+			"binding": "public_cdn",
+			"bucket_name": "public-cdn"
+		}
+	]
+}

@@ -1,20 +1,20 @@
 /**
  * Cloudflare Worker for serving fonts from R2 bucket
- * Handles requests to cdn.hixbe.com/s/*
- * Structure: /s/{family}/v{version}/{filename}
+ * Handles requests to cdn.hixbe.com/fonts/*
+ * Structure: /fonts/v{version}/{family}/{filename}
  */
 
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
-    // Only handle /s/* paths
-    if (!url.pathname.startsWith('/s/')) {
+    // Only handle /fonts/* paths
+    if (!url.pathname.startsWith('/fonts/')) {
       return new Response('Not Found', { status: 404 });
     }
 
-    // Remove leading /s/ to get the R2 key
-    const key = url.pathname.substring(3);
+    // Remove leading /fonts/ to get the R2 key
+    const key = url.pathname.substring(7);
 
     // If no key, return 404
     if (!key) {

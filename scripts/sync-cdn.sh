@@ -7,7 +7,7 @@ find fonts -type f \( -name "*.woff" -o -name "*.woff2" \) | while read -r file;
   # Get the directory containing the file
   dir=$(dirname "$file")
   # Get the font id (the directory name before 'files')
-  id=$(basename "$dir")
+  id=$(basename "$(dirname "$dir")")
   # Read metadata
   family=$(jq -r '.family' "$dir/../metadata.json")
   version=$(jq -r '.version' "$dir/../metadata.json")
@@ -15,7 +15,7 @@ find fonts -type f \( -name "*.woff" -o -name "*.woff2" \) | while read -r file;
   filename=$(basename "$file")
 
   # Upload font file to R2
-  key="s/${id}/v${version}/${filename}"
+  key="fonts/v${version}/${id}/${filename}"
   echo "Uploading $file to $key"
   wrangler r2 object put "public-cdn/$key" --file "$file" --remote
 done
@@ -43,7 +43,7 @@ for dir in fonts/*/*/files; do
 
       if [ -n "$woff2_file" ]; then
         filename=$(basename "$woff2_file")
-        css+="url(https://cdn.hixbe.com/s/${id}/v${version}/${filename}) format('woff2')"
+        css+="url(https://cdn.hixbe.com/fonts/v${version}/${id}/${filename}) format('woff2')"
         if [ -n "$woff_file" ]; then
           css+=",\n       "
         fi
@@ -51,14 +51,14 @@ for dir in fonts/*/*/files; do
 
       if [ -n "$woff_file" ]; then
         filename=$(basename "$woff_file")
-        css+="url(https://cdn.hixbe.com/s/${id}/v${version}/${filename}) format('woff')"
+        css+="url(https://cdn.hixbe.com/fonts/v${version}/${id}/${filename}) format('woff')"
       fi
 
       css+=";\n"
       css+="}\n"
 
       # Upload CSS
-      key="s/${id}/font.css"
+      key="fonts/v${version}/${id}/font.css"
       echo "Uploading CSS to $key"
       echo -e "$css" | wrangler r2 object put "public-cdn/$key" --pipe --content-type "text/css" --remote
     fi
